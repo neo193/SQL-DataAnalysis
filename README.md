@@ -44,42 +44,69 @@ The dataset used in this project contains real job postings with fields includin
 
 ---
 
-### Query 1 — Top Paying Jobs
+### Query 1 — Top Paying Remote Data Analyst Jobs
 
-*Insights coming soon.*
+**Question:** What are the top 10 highest paying Data Analyst roles available remotely, excluding records with no salary information?
+
+**Output:**
+
+| Job Title                                       | Company             | Schedule  | Avg Yearly Salary (USD) | Posted Date |
+| ----------------------------------------------- | ------------------- | --------- | ----------------------- | ----------- |
+| Data Analyst                                    | Mantys              | Full-time | $650,000                | Feb 2023    |
+| Director of Analytics                           | Meta                | Full-time | $336,500                | Aug 2023    |
+| Associate Director - Data Insights              | AT&T                | Full-time | $255,829                | Jun 2023    |
+| Data Analyst, Marketing                         | Pinterest           | Full-time | $232,423                | Dec 2023    |
+| Data Analyst (Hybrid/Remote)                    | UCLA Health Careers | Full-time | $217,000                | Jan 2023    |
+| Principal Data Analyst (Remote)                 | SmartAsset          | Full-time | $205,000                | Aug 2023    |
+| Director, Data Analyst - HYBRID                 | Inclusively         | Full-time | $189,309                | Dec 2023    |
+| Principal Data Analyst, AV Performance Analysis | Motional            | Full-time | $189,000                | Jan 2023    |
+| Principal Data Analyst                          | SmartAsset          | Full-time | $186,000                | Jul 2023    |
+| ERM Data Analyst                                | Get It Recruit - IT | Full-time | $184,000                | Jun 2023    |
+
+**Key Insights:**
+
+- **The salary range is extremely wide.** The top-paying role (Mantys, $650,000) is nearly double the second-highest (Meta, $336,500). This outlier likely represents a senior or equity-heavy compensation package and warrants caution when interpreting average salaries in the field. The remaining 8 roles cluster more realistically between $184,000 and $255,000.
+
+- **Seniority drives pay significantly.** Titles like _Director of Analytics_, _Associate Director_, and _Principal Data Analyst_ dominate the top 10. A standard "Data Analyst" title appears only twice — the Mantys outlier and the Pinterest Marketing Analyst role. This signals that moving into senior or specialized tracks is where the highest compensation lies.
+
+- **Big Tech and established enterprises lead on salary.** Companies like Meta, AT&T, Pinterest, and UCLA Health represent large, well-resourced organizations. SmartAsset appears twice, suggesting it is an active and competitive remote employer in the analytics space worth keeping on the radar.
+
+- **Specialization adds value.** Roles like _Data Analyst, Marketing_ (Pinterest), _AV Performance Analysis_ (Motional), and _ERM Data Analyst_ show that domain-specific analyst roles — tied to a particular business function or industry — command strong salaries. Generalist titles tend to sit lower unless at a senior level.
+
+- **All 10 roles are full-time positions**, confirming that the highest-paying remote opportunities in data analytics are stable, permanent roles rather than contract or freelance engagements.
 
 ---
 
 ### Query 2 — Top Skills Required for Top Paying Jobs
 
-*Insights coming soon.*
+_Insights coming soon._
 
 ---
 
 ### Query 3 — Most In-Demand Skills
 
-*Insights coming soon.*
+_Insights coming soon._
 
 ---
 
 ### Query 4 — Top Paying Skills
 
-*Insights coming soon.*
+_Insights coming soon._
 
 ---
 
 ### Query 5 — Most Optimal Skills to Learn
 
-*Insights coming soon.*
+_Insights coming soon._
 
 ---
 
 ## 📌 Key Takeaways
 
-*A summary of the most important findings across all queries will be added here once all analyses are complete.*
+_A summary of the most important findings across all queries will be added here once all analyses are complete._
 
 ---
 
 ## 👤 Author
 
-**Sriharsha KR**  
+**Sriharsha KR**

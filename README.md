@@ -65,15 +65,9 @@ The dataset used in this project contains real job postings with fields includin
 
 **Key Insights:**
 
-- **The salary range is extremely wide.** The top-paying role (Mantys, $650,000) is nearly double the second-highest (Meta, $336,500). This outlier likely represents a senior or equity-heavy compensation package and warrants caution when interpreting average salaries in the field. The remaining 8 roles cluster more realistically between $184,000 and $255,000.
-
-- **Seniority drives pay significantly.** Titles like _Director of Analytics_, _Associate Director_, and _Principal Data Analyst_ dominate the top 10. A standard "Data Analyst" title appears only twice — the Mantys outlier and the Pinterest Marketing Analyst role. This signals that moving into senior or specialized tracks is where the highest compensation lies.
-
-- **Big Tech and established enterprises lead on salary.** Companies like Meta, AT&T, Pinterest, and UCLA Health represent large, well-resourced organizations. SmartAsset appears twice, suggesting it is an active and competitive remote employer in the analytics space worth keeping on the radar.
-
-- **Specialization adds value.** Roles like _Data Analyst, Marketing_ (Pinterest), _AV Performance Analysis_ (Motional), and _ERM Data Analyst_ show that domain-specific analyst roles — tied to a particular business function or industry — command strong salaries. Generalist titles tend to sit lower unless at a senior level.
-
-- **All 10 roles are full-time positions**, confirming that the highest-paying remote opportunities in data analytics are stable, permanent roles rather than contract or freelance engagements.
+- **Anomalies Exist:** The top listing (Mantys at \$650,000) is a clear statistical outlier; removing it reveals a realistic top-tier remote salary ceiling between \$184,000 and \$255,000.
+- **Seniority Drives Pay:** Leadership and advanced roles dominate the highest-paying slots (e.g., Director, Principal), proving that career advancement and experience are key drivers of top compensation.
+- **Specialization is Rewarded:** Roles requiring domain-specific knowledge (such as Marketing Analytics or Risk Management) command a significant premium over generalist analytics roles.
 
 ---
 
@@ -98,13 +92,9 @@ The dataset used in this project contains real job postings with fields includin
 
 **Key Insights:**
 
-- **SQL is the single most required skill**, appearing in 8 out of 10 top-paying job postings. This directly reinforces what the broader industry consistently reports — SQL is non-negotiable for anyone serious about a data analyst career, and its dominance even at the highest salary tier confirms it remains the baseline expectation regardless of seniority.
-- **Python is nearly as critical as SQL**, demanded by 7 of the 10 roles. The gap of just one between SQL and Python suggests that top-paying employers expect both, not just one or the other. Python's presence here likely reflects the need for automation, advanced analysis, and working with large datasets beyond what spreadsheets can handle.
-- **Tableau leads as the visualization tool of choice** at the top end of the market, appearing in 6 of 10 roles. This is notable — while Power BI is popular in the broader market, Tableau appears to have stronger representation among the highest-paying employers, particularly large enterprises and tech companies.
-- **R still has a place at the table**, appearing in 4 roles. Its presence signals that some high-paying roles — likely at companies doing more rigorous statistical analysis or research-adjacent work — still value R alongside Python rather than treating it as obsolete.
-- **Cloud and modern data stack tools are emerging requirements.** Snowflake (3) and Azure (2) appearing in this list is significant. These are not beginner tools — their presence indicates that top-paying roles expect analysts who can work within modern cloud data infrastructure, not just local databases or spreadsheets.
-- **Pandas being listed separately from Python** (3 mentions) suggests that some job postings call out specific Python libraries explicitly, emphasizing hands-on data manipulation experience over general Python knowledge. This is a hint to go beyond knowing Python syntax and get comfortable with Pandas specifically.
-- **Atlassian and Jira (2 each) reveal something about work culture** at high-paying companies. Their inclusion points to environments where analysts collaborate closely with engineering and product teams in agile workflows — a soft signal that communication and cross-functional collaboration are expected alongside technical skills.
+- **The Core Tech Stack:** SQL (8/10) and Python (7/10) are nearly universal expectations at this compensation level, signaling that top employers expect proficiency in both.
+- **Tableau Leads Visualization:** Tableau appears 6 times out of 10, establishing itself as the preferred data visualization tool over Power BI among high-paying employers.
+- **Cloud Infrastructure Baseline:** Regular appearances of Snowflake and Azure indicate that senior analysts must know how to navigate modern cloud data warehouses.
 
 ---
 
@@ -129,19 +119,51 @@ The dataset used in this project contains real job postings with fields includin
 
 **Key Insights:**
 
-- **SQL dominates by a significant margin** with 92,628 mentions — nearly 38% more than the second-placed Excel. Across every salary tier, company size, and location, SQL is the one skill that appears in almost every data analyst job description. If there is one skill to be completely comfortable with before applying anywhere, it is this.
-- **Excel's position at #2 with 67,031 mentions is a reality check.** Despite the industry trend toward Python and BI tools, Excel remains deeply embedded in how businesses operate day-to-day. This is especially true for mid-market companies, finance teams, and non-tech industries. Being strong in Excel — not just basic formulas, but pivot tables, Power Query, and advanced functions — is still very much expected.
-- **Comparing Query 2 vs Query 3 reveals a clear market split.** In the top-paying jobs (Query 2), Python ranked above Excel. In the broader market (Query 3), Excel ranks above Python. This tells a nuanced story — Python is what the highest-paying employers want, but Excel is what the majority of the market requires. A fresher targeting volume of opportunities needs Excel; a fresher targeting salary ceiling needs Python.
-- **Both Tableau (46,554) and Power BI (39,468) appear in the top 5**, confirming that data visualization is a core expectation across the market, not a bonus skill. Together they account for over 86,000 mentions, more than Python alone. Knowing at least one of these tools well is non-negotiable.
-- **The Tableau vs Power BI gap is narrower than expected** — about 15% difference. Tableau leads in demand but Power BI is closing in, likely driven by its deep integration with the Microsoft ecosystem that many enterprises already use. This makes Power BI arguably the more accessible entry point for freshers targeting corporate or enterprise roles.
-- **SAS (28,068) still holds significant market presence**, ranking above PowerPoint and Word. Its demand is largely concentrated in traditional industries — healthcare, pharmaceuticals, banking, and government — where legacy systems and regulatory requirements keep SAS in active use. It is worth being aware of, though not a priority to learn early.
-- **PowerPoint (13,848) and Word (13,591) appearing in the top 10 is a meaningful signal.** It confirms that employers across the board expect analysts to communicate findings, not just produce them. The ability to translate data into a clear presentation or written report is treated as part of the job description, not an afterthought.
+- **SQL is Undisputed:** With over 92,000 mentions (38% more than runner-up Excel), SQL is the single most vital skill for an analyst across all salary bands and locations.
+- **The Market/Salary Split:** Excel dominates volume in the broader market, but Python rules the upper-income bracket. Freshers should focus on Excel for maximum entry-level opportunities, and Python for long-term salary growth.
+- **Soft Skills Matter:** The presence of PowerPoint and Word in the top 10 confirms that employers value communication and the ability to present findings as highly as technical execution.
 
 ---
 
-### Query 4 — Top Paying Skills
+### Query 4 — Top Skills Based on Average Salary
 
-_Insights coming soon._
+**Question:** What are the top 25 skills associated with the highest average salaries for Data Analyst positions, across all locations with specified salaries?
+
+**Output:**
+
+| Skill        | Avg. Yearly Salary (USD) |
+| ------------ | ------------------------ |
+| SVN          | $400,000                 |
+| Solidity     | $179,000                 |
+| Couchbase    | $160,515                 |
+| DataRobot    | $155,486                 |
+| Golang       | $155,000                 |
+| MXNet        | $149,000                 |
+| dplyr        | $147,633                 |
+| VMware       | $147,500                 |
+| Terraform    | $146,734                 |
+| Twilio       | $138,500                 |
+| GitLab       | $134,126                 |
+| Kafka        | $129,999                 |
+| Puppet       | $129,820                 |
+| Keras        | $127,013                 |
+| PyTorch      | $125,226                 |
+| Perl         | $124,686                 |
+| Ansible      | $124,370                 |
+| Hugging Face | $123,950                 |
+| TensorFlow   | $120,647                 |
+| Cassandra    | $118,407                 |
+| Notion       | $118,092                 |
+| Atlassian    | $117,966                 |
+| Bitbucket    | $116,712                 |
+| Airflow      | $116,387                 |
+| Scala        | $115,480                 |
+
+**Key Insights:**
+
+- **Outlier Alert:** SVN's top rank at \$400,000 is heavily skewed by a single job listing and does not accurately reflect standard market value for the skill.
+- **Niche vs. Foundational Trade-off:** High-demand staples like SQL and Excel are missing here. Niche, specialized skills command higher salaries but offer vastly fewer total job openings.
+- **AI/ML Convergence:** High clusters of machine learning frameworks (PyTorch, TensorFlow, Keras) between \$120K–\$149K prove that analysts who bridge the gap into Data Science command premium pay.
 
 ---
 

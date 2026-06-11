@@ -25,8 +25,8 @@ Each SQL file in this project focuses on one specific analytical question, progr
 ```
 📂 sql-job-market-analysis
 │
-├── 📄 1_top_paying_jobs.sql
-├── 📄 2_top_skills_for_top_paying_jobs.sql
+├── 📄 1_topPayingJobs.sql
+├── 📄 2_topPayingJobSkills.sql
 ├── 📄 3_most_in_demand_skills.sql
 ├── 📄 4_top_paying_skills.sql
 ├── 📄 5_most_optimal_skills.sql
@@ -77,15 +77,65 @@ The dataset used in this project contains real job postings with fields includin
 
 ---
 
-### Query 2 — Top Skills Required for Top Paying Jobs
+### Query 2 — Top Skills Required for Top Paying Data Analyst Jobs
 
-_Insights coming soon._
+**Question:** What specific skills are required by the top 10 highest-paying remote Data Analyst roles, and which of those skills appear most frequently?
+
+**Output:**
+
+| Skill     | Demand Count (out of 10 jobs) |
+| --------- | ----------------------------- |
+| SQL       | 8                             |
+| Python    | 7                             |
+| Tableau   | 6                             |
+| R         | 4                             |
+| Snowflake | 3                             |
+| Pandas    | 3                             |
+| Excel     | 3                             |
+| Atlassian | 2                             |
+| Azure     | 2                             |
+| Jira      | 2                             |
+
+**Key Insights:**
+
+- **SQL is the single most required skill**, appearing in 8 out of 10 top-paying job postings. This directly reinforces what the broader industry consistently reports — SQL is non-negotiable for anyone serious about a data analyst career, and its dominance even at the highest salary tier confirms it remains the baseline expectation regardless of seniority.
+- **Python is nearly as critical as SQL**, demanded by 7 of the 10 roles. The gap of just one between SQL and Python suggests that top-paying employers expect both, not just one or the other. Python's presence here likely reflects the need for automation, advanced analysis, and working with large datasets beyond what spreadsheets can handle.
+- **Tableau leads as the visualization tool of choice** at the top end of the market, appearing in 6 of 10 roles. This is notable — while Power BI is popular in the broader market, Tableau appears to have stronger representation among the highest-paying employers, particularly large enterprises and tech companies.
+- **R still has a place at the table**, appearing in 4 roles. Its presence signals that some high-paying roles — likely at companies doing more rigorous statistical analysis or research-adjacent work — still value R alongside Python rather than treating it as obsolete.
+- **Cloud and modern data stack tools are emerging requirements.** Snowflake (3) and Azure (2) appearing in this list is significant. These are not beginner tools — their presence indicates that top-paying roles expect analysts who can work within modern cloud data infrastructure, not just local databases or spreadsheets.
+- **Pandas being listed separately from Python** (3 mentions) suggests that some job postings call out specific Python libraries explicitly, emphasizing hands-on data manipulation experience over general Python knowledge. This is a hint to go beyond knowing Python syntax and get comfortable with Pandas specifically.
+- **Atlassian and Jira (2 each) reveal something about work culture** at high-paying companies. Their inclusion points to environments where analysts collaborate closely with engineering and product teams in agile workflows — a soft signal that communication and cross-functional collaboration are expected alongside technical skills.
 
 ---
 
-### Query 3 — Most In-Demand Skills
+### Query 3 — Most In-Demand Skills Across All Data Analyst Job Postings
 
-_Insights coming soon._
+**Question:** What are the top 10 most in-demand skills for data analysts across all job postings, regardless of salary or remote status?
+
+**Output:**
+
+| Skill      | Demand Count |
+| ---------- | ------------ |
+| SQL        | 92,628       |
+| Excel      | 67,031       |
+| Python     | 57,326       |
+| Tableau    | 46,554       |
+| Power BI   | 39,468       |
+| R          | 30,075       |
+| SAS        | 28,068       |
+| PowerPoint | 13,848       |
+| Word       | 13,591       |
+| SAP        | 11,297       |
+
+**Key Insights:**
+
+- **SQL dominates by a significant margin** with 92,628 mentions — nearly 38% more than the second-placed Excel. Across every salary tier, company size, and location, SQL is the one skill that appears in almost every data analyst job description. If there is one skill to be completely comfortable with before applying anywhere, it is this.
+- **Excel's position at #2 with 67,031 mentions is a reality check.** Despite the industry trend toward Python and BI tools, Excel remains deeply embedded in how businesses operate day-to-day. This is especially true for mid-market companies, finance teams, and non-tech industries. Being strong in Excel — not just basic formulas, but pivot tables, Power Query, and advanced functions — is still very much expected.
+- **Comparing Query 2 vs Query 3 reveals a clear market split.** In the top-paying jobs (Query 2), Python ranked above Excel. In the broader market (Query 3), Excel ranks above Python. This tells a nuanced story — Python is what the highest-paying employers want, but Excel is what the majority of the market requires. A fresher targeting volume of opportunities needs Excel; a fresher targeting salary ceiling needs Python.
+- **Both Tableau (46,554) and Power BI (39,468) appear in the top 5**, confirming that data visualization is a core expectation across the market, not a bonus skill. Together they account for over 86,000 mentions, more than Python alone. Knowing at least one of these tools well is non-negotiable.
+- **The Tableau vs Power BI gap is narrower than expected** — about 15% difference. Tableau leads in demand but Power BI is closing in, likely driven by its deep integration with the Microsoft ecosystem that many enterprises already use. This makes Power BI arguably the more accessible entry point for freshers targeting corporate or enterprise roles.
+- **SAS (28,068) still holds significant market presence**, ranking above PowerPoint and Word. Its demand is largely concentrated in traditional industries — healthcare, pharmaceuticals, banking, and government — where legacy systems and regulatory requirements keep SAS in active use. It is worth being aware of, though not a priority to learn early.
+- **PowerPoint (13,848) and Word (13,591) appearing in the top 10 is a meaningful signal.** It confirms that employers across the board expect analysts to communicate findings, not just produce them. The ability to translate data into a clear presentation or written report is treated as part of the job description, not an afterthought.
 
 ---
 

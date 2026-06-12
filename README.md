@@ -27,9 +27,9 @@ Each SQL file in this project focuses on one specific analytical question, progr
 │
 ├── 📄 1_topPayingJobs.sql
 ├── 📄 2_topPayingJobSkills.sql
-├── 📄 3_most_in_demand_skills.sql
-├── 📄 4_top_paying_skills.sql
-├── 📄 5_most_optimal_skills.sql
+├── 📄 3_topDemandedSkills.sql
+├── 📄 4_topPayingSkills.sql
+├── 📄 5_optimalSkills.sql
 │
 └── 📄 README.md
 ```
@@ -169,7 +169,24 @@ The dataset used in this project contains real job postings with fields includin
 
 ### Query 5 — Most Optimal Skills to Learn
 
-_Insights coming soon._
+**Question:** What are the most strategically valuable skills to learn, balancing high market demand with optimal salary returns?
+
+**Output:**
+
+| Skill ID | Skill    | Demand Count | Avg. Yearly Salary (USD) |
+| -------- | -------- | ------------ | ------------------------ |
+| 1        | Python   | 236          | $101,397                 |
+| 5        | R        | 148          | $100,499                 |
+| 182      | Tableau  | 230          | $99,288                  |
+| 183      | Power BI | 110          | $97,431                  |
+| 0        | SQL      | 398          | $97,237                  |
+
+**Key Insights:**
+
+- **SQL is the Ultimate Anchor:** SQL holds the highest market demand by a landslide with 398 job postings, while still maintaining an impressive average salary of \$97,237. This confirms it as the non-negotiable foundational skill for any data analyst.
+- **Python Rules the Salary Tier:** Python sits at the top of the financial ROI chart, commanding the highest average salary (\$101,397) while maintaining an equally robust demand count of 236 postings.
+- **The Visualization Duel:** Tableau outperforms Power BI on both fronts in this optimal subset; it not only yields a higher average salary (\$99,288 vs \$97,431) but also boasts more than double the volume of job openings (230 vs 110).
+- **Programming Over BI Tools:** Data science-oriented programming languages (Python and R) both cross the \$100,000 threshold, out-earning traditional Business Intelligence and database tools (Tableau, Power BI, SQL), pointing to a clear financial premium for coding skills.
 
 ---
 

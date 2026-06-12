@@ -25,11 +25,11 @@ Each SQL file in this project focuses on one specific analytical question, progr
 ```
 📂 sql-job-market-analysis
 │
-├── 📄 1_topPayingJobs.sql
-├── 📄 2_topPayingJobSkills.sql
-├── 📄 3_topDemandedSkills.sql
-├── 📄 4_topPayingSkills.sql
-├── 📄 5_optimalSkills.sql
+├── 📄 [1_topPayingJobs.sql](/sqlProject1/1_topPayingJobs.sql)
+├── 📄 [2_topPayingJobSkills.sql](/sqlProject1/2_topPayingJobSkills.sql)
+├── 📄 [3_topDemandedSkills.sql](/sqlProject1/3_topDemandedSkills.sql)
+├── 📄 [4_topPayingSkills.sql](/sqlProject1/4_topPayingSkills.sql)
+├── 📄 [5_optimalSkills.sql](/sqlProject1/5_optimalSkills.sql)
 │
 └── 📄 README.md
 ```

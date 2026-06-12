@@ -196,6 +196,14 @@ _The analysis reveals that while SQL remains the undisputed, non-negotiable base
 
 ---
 
+## ⚠️ Disclaimer & Methodology Note
+
+**Disclaimer:** This project was developed as part of a hands-on learning experience by following Luke Barousse's Data Analysis course. It serves as a practical application of SQL and database design principles to real-world datasets.
+
+**Methodology Note (Query 5):** For the optimal skills analysis, a baseline threshold of an **\$80,000 minimum average salary** and a **minimum skill demand of 70 postings** was deliberately applied. This filtering was necessary to eliminate data anomalies and outliers, as salary and demand brackets falling below these metrics contained too few records to provide statistically reliable insights.
+
+---
+
 ## 👤 Author
 
 **Sriharsha KR**

@@ -192,7 +192,7 @@ The dataset used in this project contains real job postings with fields includin
 
 ## 📌 Key Takeaways
 
-_A summary of the most important findings across all queries will be added here once all analyses are complete._
+_The analysis reveals that while SQL remains the undisputed, non-negotiable baseline anchoring both entry-level volume and top-tier salaries across the job market, true financial optimization relies heavily on specialized technical choices. Developing proficiency in data science-oriented programming languages like Python and R offers the highest financial return on investment, routinely pushing analyst compensation past the \$100,000 threshold. Furthermore, strategic tool selection—such as prioritizing Tableau over Power BI and gaining familiarity with cloud data platforms like Snowflake and Azure—is critical for targeting high-paying employers. Ultimately, maximizing career earnings requires moving beyond general analytics and deliberately pursuing advanced leadership seniority, domain-specific expertise, or machine learning capabilities._
 
 ---
 
